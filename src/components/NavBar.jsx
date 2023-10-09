@@ -23,7 +23,7 @@ const NavBar = () => {
 
     return (
         <div>
-            <div className="navbar fixed z-10 bg-black text-white bg-opacity-20 uppercase font-semibold tracking-wider">
+            <div className="font-['Cinzel'] navbar fixed z-10 bg-black text-white bg-opacity-20 uppercase font-semibold tracking-wide">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
