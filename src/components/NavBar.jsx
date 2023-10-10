@@ -49,7 +49,10 @@ const NavBar = () => {
                             {navItem}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <a className="flex flex-col md:pl-5 normal-case text-xl hover:cursor-pointer">
+                        <span className="tracking-wider">Bistro Boss</span>
+                        <span className="tracking-widest">Restaurant</span>
+                    </a>
                 </div>
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">{navItem}</ul>
